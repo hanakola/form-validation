@@ -12,6 +12,85 @@
     />
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <h1>User Form</h1>
+          <form>
+            <div class="form-group">
+              <label class="mb-2">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="first-name"
+                placeholder="First Name"
+              />
+              <div class="invalid-feedback">
+                First name must be between 2 and 15 characters
+              </div>
+            </div>
+            <br />
+
+            <div class="form-group">
+              <label class="mb-2">Surname</label>
+              <input
+                type="text"
+                class="form-control"
+                id="surname"
+                placeholder="Surname"
+              />
+              <div class="invalid-feedback">
+                Surname must be between 2 and 25 characters
+              </div>
+            </div>
+            <br />
+
+            <div class="form-group">
+              <label class="mb-2">Email</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+              />
+              <div class="invalid-feedback">Enter a valid email</div>
+            </div>
+            <br />
+
+            <div class="form-group">
+              <label class="mb-2">Phone Number</label>
+              <input
+                type="text"
+                class="form-control"
+                id="phone-number"
+                placeholder="Phone Number"
+              />
+              <div class="invalid-feedback">Enter a valid UK phone number</div>
+            </div>
+            <br />
+
+            <div class="form-group">
+              <label class="mb-2">Postcode</label>
+              <input
+                type="text"
+                class="form-control"
+                id="postcode"
+                placeholder="Postcode"
+              />
+              <div class="invalid-feedback">Enter a valid UK postcode</div>
+            </div>
+            <br />
+
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-primary btn-block mb-3"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
